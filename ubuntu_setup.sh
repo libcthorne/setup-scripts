@@ -4,7 +4,6 @@
 # chmod +x filename.sh
 # sudo ./filename.sh
 
-
 # update package index
 sudo apt-get update
 
@@ -38,3 +37,17 @@ sudo apt-get install nodejs
 gem install rails
 
 mkdir ~/projects
+
+# Configure git
+read -p "Configure Git? (y/n): " -n 1 -r
+
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  read -p "`echo $'\n '`  name> " git_name
+  read -p "  email> " git_email
+  git config --global user.name $git_name
+  git config --global user.email $git_email
+  echo -e "Git configured. name: $git_name, email: $git_email\n"
+else
+  echo -e "\nSkipping git configuration\n"
+fi
