@@ -1,2 +1,2 @@
-ubuntuScripts
+Ubuntu Scripts
 =============
