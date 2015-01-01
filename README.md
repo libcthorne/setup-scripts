@@ -6,6 +6,7 @@ Applications
 * Chrome (stable and beta)
 * VirtualBox
 * Curl
+* Sublime Text 3
 
 Tools
 * Git (with git config setup)
