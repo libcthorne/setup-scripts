@@ -36,6 +36,7 @@ sudo apt-get install nodejs
 # install rails
 gem install rails
 
+# create projects directory
 mkdir ~/projects
 
 # Configure git
@@ -51,3 +52,6 @@ then
 else
   echo -e "\nSkipping git configuration\n"
 fi
+
+# install virtualbox
+sudo apt-get install virtualbox
