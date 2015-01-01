@@ -1,4 +1,4 @@
-Ubuntu Scripts
+Ubuntu setup script
 =============
 This script takes a fresh Ubuntu installation and installs applications, tools, and languages that I use.
 
