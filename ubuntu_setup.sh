@@ -64,3 +64,10 @@ sudo apt-get install sublime-text-installer
 sudo add-apt-repository ppa:paolorotolo/android-studio
 sudo apt-get update
 sudo apt-get install android-studio
+
+# build android projects on 64bit ubuntu (http://stackoverflow.com/a/27734148)
+sudo apt-get install lib32stdc++6
+sudo apt-get install lib32z1
+
+# install oracle java jdk8 (auto accepts license)
+echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
