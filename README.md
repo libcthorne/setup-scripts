@@ -17,3 +17,4 @@ Languages and frameworks
 
 ## Todo
 * Add launcher shortcuts for installed applications using ```gsettings set com.canonical.Unity.Launcher favorites```
+* Optimize the script - merge all ```apt-get install's``` and only run ```apt-get update``` once.
