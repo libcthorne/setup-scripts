@@ -9,6 +9,7 @@ Applications and tools
 * Sublime Text 3
 * Git (with git config setup)
 * Android Studio
+* Oracle JDK
 
 Languages and frameworks
 * Ruby via rvm
