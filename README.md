@@ -2,7 +2,7 @@ Ubuntu setup script
 =============
 This script takes a fresh Ubuntu installation and installs applications, tools, and languages that I use.
 
-Applications/Tools
+Applications and tools
 * Chrome (stable and beta)
 * VirtualBox
 * Curl
