@@ -2,14 +2,13 @@ Ubuntu setup script
 =============
 This script takes a fresh Ubuntu installation and installs applications, tools, and languages that I use.
 
-Applications
+Applications/Tools
 * Chrome (stable and beta)
 * VirtualBox
 * Curl
 * Sublime Text 3
-
-Tools
 * Git (with git config setup)
+* Android Studio
 
 Languages and frameworks
 * Ruby via rvm
