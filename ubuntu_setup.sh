@@ -39,18 +39,8 @@ gem install rails
 mkdir ~/projects
 
 # Configure git
-read -p "Configure Git? (y/n): " -n 1 -r
-
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-  read -p "`echo $'\n '`  name> " git_name
-  read -p "  email> " git_email
-  git config --global user.name $git_name
-  git config --global user.email $git_email
-  echo -e "Git configured. name: $git_name, email: $git_email\n"
-else
-  echo -e "\nSkipping git configuration\n"
-fi
+git config --global user.name Dan Silver
+git config --global user.email dannysilver3@gmail.com
 
 # install virtualbox
 sudo apt-get install virtualbox
