@@ -60,5 +60,10 @@ sudo apt-get install lib32z1
 # install oracle java jdk8 (auto accepts license)
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 
+#install wine
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+sudo apt-get update
+sudo apt-get install wine1.7
+
 #todo
 # install gparted
