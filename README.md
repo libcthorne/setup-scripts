@@ -7,6 +7,7 @@ Applications and tools
 * VirtualBox
 * Sublime Text 3
 * Android Studio
+* Wine
 
 Tools
 * Python Pip
