@@ -5,16 +5,20 @@ This script takes a fresh Ubuntu installation and installs applications, tools, 
 Applications and tools
 * Chrome (stable and beta)
 * VirtualBox
-* Curl
 * Sublime Text 3
-* Git (with git config setup)
 * Android Studio
-* Oracle JDK
+
+Tools
+* Python Pip
+* Curl
+* Git (with git config setup)
+
 
 Languages and frameworks
 * Ruby via rvm
 * Rails
 * Node.js
+* Oracle JDK
 
 ## Todo
 * Add launcher shortcuts for installed applications using ```gsettings set com.canonical.Unity.Launcher favorites```
