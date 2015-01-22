@@ -12,8 +12,7 @@ Applications and tools
 Tools
 * Python Pip
 * Curl
-* Git (with git config setup)
-
+* Git
 
 Languages and frameworks
 * Ruby via rvm
