@@ -34,8 +34,8 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 
-# install rails
-gem install rails
+# install steam
+sudo apt-get install steam
 
 # create projects directory
 mkdir ~/projects
