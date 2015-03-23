@@ -73,5 +73,9 @@ sudo easy_install pip
 # pymongo
 sudo pip install pymongo
 
-#todo
+# python machine learning
+sudo apt-get install python-matplotlib
+sudo apt-get install python-sklearn
+
 # install gparted
+sudo apt-get install gparted
