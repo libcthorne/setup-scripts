@@ -26,9 +26,6 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
-# install chrome beta
-sudo apt-get install google-chrome-beta
-
 # install nodejs
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
@@ -76,6 +73,7 @@ sudo pip install pymongo
 # python machine learning
 sudo apt-get install python-matplotlib
 sudo apt-get install python-sklearn
+sudo easy_install pandas
 
 # install gparted
 sudo apt-get install gparted
