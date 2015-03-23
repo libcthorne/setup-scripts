@@ -74,6 +74,8 @@ sudo pip install pymongo
 sudo apt-get install python-matplotlib
 sudo apt-get install python-sklearn
 sudo easy_install pandas
+sudo apt-get install graphviz
+
 
 # install gparted
 sudo apt-get install gparted
