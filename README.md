@@ -14,9 +14,13 @@ Tools
 * Curl
 * Git
 
+Machine learning python reqs
+* Sklearn
+* Matplotlib
+
+
 Languages and frameworks
 * Ruby via rvm
-* Rails
 * Node.js
 * Oracle JDK
 
