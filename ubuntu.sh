@@ -1,6 +1,6 @@
 # Set this file as executable and run it with:
-# chmod +x ubuntu_setup.sh
-# sudo ./ubuntu_setup.sh
+# chmod +x ubuntu.sh
+# sudo ./ubuntu.sh
 
 # update package index
 sudo apt-get update
@@ -33,9 +33,6 @@ sudo apt-get install nodejs
 
 # install steam
 sudo apt-get install steam
-
-# create projects directory
-mkdir ~/projects
 
 # install virtualbox
 sudo apt-get install virtualbox
@@ -79,3 +76,6 @@ sudo apt-get install graphviz
 
 # install gparted
 sudo apt-get install gparted
+
+# create projects directory
+mkdir ~/projects
