@@ -64,8 +64,8 @@ sudo apt-get install wine1.7
 sudo apt-get install python-setuptools python-dev build-essential
 sudo easy_install pip
 
-# pymongo
-sudo pip install pymongo
+# latex
+sudo apt-get install latexmk
 
 # python machine learning
 sudo apt-get install python-matplotlib
