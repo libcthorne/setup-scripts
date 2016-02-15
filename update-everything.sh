@@ -8,3 +8,8 @@ pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
 # Update all node.js packages
 # https://docs.npmjs.com/getting-started/updating-global-packages
 npm update -g
+
+
+# Ubuntu updates
+apt-get update
+apt-get upgrade
